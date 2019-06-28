@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:elevation="2dp"
+    android:background="@drawable/myrect" >
+    <TextView
+        android:id="@+id/mp_orderid"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="订单号"
+        android:textColor="#757575"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="15dp"
+        android:background="#f5f5f5" />
+    <TextView
+        android:id="@+id/mp_money"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="酬金：100"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_pksize"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="包裹大小：大"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_pkcode"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="取件码"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_nikename"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="收货人昵称：胖丁"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_address"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="地址：精思苑3"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_time"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="发布时间："
+        android:textColor="#262626"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/mp_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="接单人："
+        android:textColor="#262626"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_two"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

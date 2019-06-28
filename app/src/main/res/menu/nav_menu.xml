@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/myinfo"
+        android:icon="@mipmap/mine"
+        android:title="我的信息"/>
+    <item
+        android:id="@+id/myorder"
+        android:icon="@mipmap/order"
+        android:title="我的发布"/>
+        <item
+            android:id="@+id/myreceive"
+            android:icon="@mipmap/receive"
+            android:title="我的接单"/>
+    <item
+        android:id="@+id/set"
+        android:icon="@mipmap/set"
+        android:title="设置"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@mipmap/help"
+        android:title="帮助"/>
+        <item
+            android:id="@+id/quit"
+            android:icon="@mipmap/quit"
+            android:title="退出登录"/>
+    </group>
+</menu>
